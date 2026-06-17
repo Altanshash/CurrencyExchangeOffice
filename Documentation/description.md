@@ -23,3 +23,10 @@ and trade real currencies using live rates from the National Bank of Poland.
 | 🌐 Rates API | NBP Public API (api.nbp.pl) |
 
 ## Architecture
+User → WPF Client → WCF Service → NBP API → SQL Server DB
+
+## How to Run
+1. 🗄️ Run `Database.sql` in SSMS
+2. 💻 Open solution in Visual Studio
+3. ▶️ Set both projects as startup → Press F5
+4. 🎉 Register and start trading!
