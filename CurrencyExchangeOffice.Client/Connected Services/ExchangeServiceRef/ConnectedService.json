@@ -1,0 +1,16 @@
+{
+  "ExtendedData": {
+    "inputs": [
+      "http://localhost:3075/ExchangeService.svc"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, ExchangeServiceRef"
+    ],
+    "targetFramework": "net8.0-windows",
+    "typeReuseMode": "All"
+  }
+}

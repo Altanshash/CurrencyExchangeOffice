@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="CurrencyExchangeOffice.Client/CurrencyExchangeOffice.Client.csproj" />
+  <Project Path="CurrencyExchangeOffice.Service/CurrencyExchangeOffice.Service.csproj" />
+</Solution>
