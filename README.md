@@ -1,28 +1,27 @@
 # Currency Exchange Office
 
-**Course:** Network Application Development  
-**Author:** Altanshash Tolbakhan 
-**Student ID:** [65295]
+**Course:** Network Application Development
+**Author:** Altanshash Tolbakhan
+**Student ID:** [64295]
 
-## Description
-A WCF-based currency exchange office simulation. Users can register, 
-top up PLN balance, check live NBP exchange rates, buy/sell foreign 
-currencies, and view transaction history.
+## About
+Online currency exchange office simulation built with WCF and WPF.
 
-## Components
-- WCF Web Service with NBP API integration
-- WPF desktop client application  
-- SQL Server database
-
-## How to Run
-1. Run Database/schema.sql in SQL Server Management Studio
-2. Open solution in Visual Studio
-3. Set both projects as startup (Multiple Startup Projects)
-4. Press F5
+## Features
+- Register / Login
+- Check live exchange rates (NBP API)
+- Buy and sell currencies
+- Top up PLN balance
+- Transaction history
 
 ## Tech Stack
-- .NET Framework 4.8
-- WCF (Windows Communication Foundation)
-- WPF (Windows Presentation Foundation)
+- WCF Web Service (.NET Framework 4.8)
+- WPF Client Application
 - SQL Server Express
-- NBP API (http://api.nbp.pl)
+- NBP API
+
+## How to Run
+1. Run `Database/schema.sql` in SSMS
+2. Open solution in Visual Studio
+3. Set both projects as startup
+4. Press F5
