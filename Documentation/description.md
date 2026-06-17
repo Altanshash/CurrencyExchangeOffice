@@ -1,37 +1,25 @@
-# Project Documentation
+# 💱 Currency Exchange Office
 
-## Project Title
-Currency Exchange Office
+## What is this?
+A fully working online currency exchange simulation — register, fund your account, 
+and trade real currencies using live rates from the National Bank of Poland.
 
-## Course
-Network Application Development
+## What can you do?
+| Feature | Description |
+|---|---|
+| 👤 Register / Login | Create your account and sign in securely |
+| 📊 Live Rates | Real-time exchange rates from NBP API |
+| 💰 Top Up | Add PLN to your virtual wallet |
+| 🛒 Buy Currency | Buy USD, EUR, GBP and more |
+| 💵 Sell Currency | Sell your currencies back for PLN |
+| 📜 History | See every transaction you've made |
 
-## Description
-A desktop application that simulates an online currency exchange office.
+## Tech Stack
+| Layer | Technology |
+|---|---|
+| 🔧 Backend | WCF Web Service (.NET Framework 4.8) |
+| 🖥️ Frontend | WPF Desktop Application |
+| 🗄️ Database | SQL Server Express |
+| 🌐 Rates API | NBP Public API (api.nbp.pl) |
 
-## What Was Built
-
-### WCF Web Service
-- Connects to NBP API to get real exchange rates
-- Handles user registration and login
-- Processes buy and sell currency transactions
-- Stores all data in SQL Server database
-
-### WPF Client Application
-- Login and registration screen
-- View current exchange rates (live from NBP)
-- Top up PLN balance
-- Buy and sell foreign currencies
-- View transaction history
-
-### Database (SQL Server)
-- Users table
-- Balances table
-- Transactions table
-
-## How It Works
-1. User registers and logs in
-2. User tops up PLN balance
-3. User checks live exchange rates
-4. User buys or sells currencies
-5. All transactions are saved to database
+## Architecture
